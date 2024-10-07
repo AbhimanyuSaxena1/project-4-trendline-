@@ -1,0 +1,140 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    font-family: gilroy;
+}
+#nav{
+    height: 9%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    padding: 0 2.5vw;
+}
+#part1{
+    width: 60%;
+    /* background-color: aqua; */
+    align-items: center;
+    display: flex;
+    gap: .5px;
+}
+.gola{
+    height: 1.8vw;
+    width: 1.8vw;
+    
+    border-radius: 50%;
+    background-color: black;
+}
+#part2 h3 span{
+    color: grey;
+    margin: 4px;
+}
+#part2{
+    font-size: 1vw;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: space-evenly;
+}
+#part2 h3{
+    font-weight: 540;
+
+}
+#head{
+    height: 6%;
+    display: flex;
+    font-size: 10px;
+    gap: 40px;
+    padding: 1.2vw 2.5vw 0 3vw;
+    
+}
+#head h1{
+    font-weight: 650;
+}
+#content
+{
+    height: 84%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+#text
+{
+    width: 100%;
+    height: 47%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-top: 4vw;
+}
+.elem{
+    flex-shrink: 0;
+    /* border: 2px solid black; */
+    /* background-color: grey; */
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.A h2{
+    padding-top: .4vw;
+    font-size: 1.5vw;
+    color: rgba(74, 73, 73, 0.735);
+}
+.B h1{
+    font-size: 10vw;
+    font-weight: 300;
+    
+}
+#text::-webkit-scrollbar{
+   height: .3vw;
+}
+#text::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+#image
+{
+    height: 55%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+#image img{
+    flex-shrink: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#a{
+    object-position: 0 20% ;
+
+}
+#b{
+    object-position: 0 28% ;
+
+}
+#c{
+    object-position: 0 40% ;
+
+}
+#d{
+    object-position: 0 24% ;
+
+}
+#image::-webkit-scrollbar{
+    display: none;
+}
